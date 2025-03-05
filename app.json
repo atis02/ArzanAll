@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Arzan Al Market",
+    "slug": "arzanal-native",
+    "version": "1.0.13",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "arzanalnative",
+    "assetBundlePatterns": ["**/*"],
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "androidStatusBar": {
+      "translucent": true
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.alemtilsimat.arzanalmarket",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#1b1c1d"
+      },
+      "package": "com.alemtilsimat.arzanalstore",
+      "googleServicesFile": "./utils/google-services.json",
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "97e4563e-e0e7-46ee-b529-dee7ffdbcef6"
+      }
+    },
+    "plugins": ["expo-router", "expo-font"],
+    "owner": "enzadevs"
+  }
+}

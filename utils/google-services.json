@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "912107177920",
+    "project_id": "arzan-al",
+    "storage_bucket": "arzan-al.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912107177920:android:9db8579778cd8ca1736a25",
+        "android_client_info": {
+          "package_name": "com.alemtilsimat.arzanalstore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfYZDalkxLvZTE2fKT4uDsX4IJ6NI5BN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
